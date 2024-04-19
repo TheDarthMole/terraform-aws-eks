@@ -6,7 +6,7 @@ run "test_fargate_profile" {
   variables {
     name         = "separate-fargate-profile"
     cluster_name = "test-cluster"
-    subnet_ids   = ["subnet-12345678", "subnet-87654322"]
+    subnet_ids   = ["subnet-12345678", "subnet-87654321"]
     selectors = [{
       namespace = "kube-system"
     }]
